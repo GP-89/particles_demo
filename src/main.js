@@ -46,6 +46,22 @@ document.addEventListener('DOMContentLoaded', async function() {
         bounce: false
       }
     },
+    polygon: {
+      enable: true,
+      type: "inline", // Options: "inline", "inside", "outside", "none"
+      move: {
+        radius: 10,
+      },
+      url: "path/to/your/polygon.svg", // Path to your SVG file
+      scale: 1, // Scale of the polygon
+      draw: {
+        enable: true,
+        stroke: {
+          width: 1,
+          color: "#ffffff",
+        },
+      },
+    },
     interactivity: {
       detect_on: "canvas",
       events: {
